@@ -1,0 +1,178 @@
+.App{
+  width: 100vw;
+  height:100vh;
+}
+
+
+.Dashboard {
+  text-align: center;
+}
+
+.Dashboard-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Dashboard-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Dashboard-header {
+  /* background-color: #282c34; */
+  background: url('./index.jpeg');
+  background-repeat: no-repeat;
+  background-size: 1900px 1300px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Dashboard-link {
+  color: #f5cb9c;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  margin:0;
+  padding:0
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.SignUp {
+  padding-top: 4%;
+  background: url('./index.jpeg');
+  background-repeat: no-repeat;
+  background-size: 1900px 1300px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight:800;
+  color: rgb(24, 23, 23);
+} 
+
+
+.SignUp-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .SignUp-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.SignUp-header {
+  background-color: #282c34;
+}
+
+.SignUp-Container {
+  padding: 1%;
+  background:#b9cbdd;
+  width:20%
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input[type=text],input[type=email],input[type=password],input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #dd6e07;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.radio-text{
+  margin:8%
+}
+
+.SignUp .SignUp-Container h2{
+ color: #1b1a19;
+}
+
+input[type='radio']{ accent-color: #dd6e07;}
+
+.radio-container{
+  display: inline;
+}
+
+.file-container{
+  display: inline;
+}
+
+.file{
+  margin-left:5%;
+}
+.errorMsg{
+  color: #a80808;
+  font-size: '10px'
+}
+
+
+.MyTable {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 2px solid rgb(237, 240, 237);
+  background-color: #f8f0f0;
+  width: 1800px;
+  height: 100px;
+}
+
+th {
+  border-bottom: 1px solid rgb(66, 65, 65);
+  text-align: center;
+  font-size: 18px;
+  color: rgb(7, 44, 99);
+  padding:1%;
+}
+td {
+  text-align: center;
+  font-size: 13px;
+  padding-top:1%;
+  color: rgb(73, 75, 77);
+}
+
+tbody.tr.td {
+  text-align: center;
+}
+
